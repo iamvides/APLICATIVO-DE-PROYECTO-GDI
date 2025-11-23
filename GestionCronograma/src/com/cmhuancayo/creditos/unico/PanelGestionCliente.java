@@ -6,7 +6,7 @@ import javax.swing.border.TitledBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.io.File;              // <-- añadido
+import java.io.File;              
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -1034,3 +1034,4 @@ public class PanelGestionCliente extends JPanel {
         return sdf.format(fecha);
     }
 }
+
